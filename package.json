@@ -1,0 +1,26 @@
+{
+  "name": "explorer-grid",
+  "version": "0.1.0",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "explorer-grid": "index.mjs"
+  },
+  "keywords": [],
+  "author": {
+    "name": "mab",
+    "email": "npmjs.org@ma-b.com"
+  },
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tmcw/togeojson": "^5.8.1",
+    "@turf/turf": "^7.0.0",
+    "commander": "^12.1.0",
+    "mime": "^4.0.3",
+    "tokml": "^0.4.0",
+    "xmldom": "^0.6.0"
+  }
+}
